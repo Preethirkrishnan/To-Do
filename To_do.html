@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charaset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="Stylesheet"  type="text/css" href="./style.css">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <title>To do</title>
+    </head>
+    <body>
+        <div class="box">
+        <p>To Do List</p>
+        <input type="text" id="task"><button id="myadd" onclick="addItem()">Submit</button>
+        <div>
+            <ul id="todos"></ul>
+            <ul id="completed"></ul>
+        </div>
+        <div class="bottom-section">
+        <button onclick="incompleteItem()">To Dos</button>
+        <button onclick="completedItem()">Completed</button>
+        </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
